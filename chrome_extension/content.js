@@ -1,14 +1,14 @@
 console.log('content.js loaded');
 
-async function portal_23947987492374987239479823749273() {
-    var replacements = await portal_134248273948723984798237();
-    var elements = document.getElementsByTagName('*');
-    for (var i = 0; i < elements.length; i++) {
-        var element = elements[i];
-        var replacement = replacements.get(element.innerText);
+async function portal_239479874923749872394798() {
+    var portal_329847293742716391398729 = await portal_134248273948723984798237();
+    var portal_129813798147924982374987 = document.getElementsByTagName('*');
+    for (var i = 0; i < portal_129813798147924982374987.length; i++) {
+        var portal_193189120931092831083091 = portal_129813798147924982374987[i];
+        var replacement = portal_329847293742716391398729.get(portal_193189120931092831083091.innerText);
         if (replacement){
-            element.textContent = replacement;
-            element.style.backgroundColor = 'red';
+            portal_193189120931092831083091.textContent = replacement;
+            portal_193189120931092831083091.style.backgroundColor = 'red';
         }
     }
 }
