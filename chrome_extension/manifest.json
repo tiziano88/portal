@@ -1,0 +1,13 @@
+{
+  "name": "portal",
+  "description": "portal",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+    }
+  ]
+}
